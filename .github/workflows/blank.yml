@@ -35,4 +35,4 @@ jobs:
           git config --local user.email '${{ secrets.EMAIL }}'
           git config --local user.name '${{ secrets.NAME }}'
           git date >> 001.txt
-          git add test001/002.txt
+          git echo ./002.txt
